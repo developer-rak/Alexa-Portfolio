@@ -8,6 +8,8 @@
    <link rel="stylesheet" href="style.css">
    <!-- unicons cdn -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+   <!-- swiper css -->
+   <link rel="stylesheet" href="cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.css">
 </head>
 
 <body>
@@ -606,10 +608,11 @@
          <h2 class="section_title">Portfolio</h2>
          <span class="section_subtitle">Most recent work</span>
 
-         <div class="portfolio_container container">
-            <div>
+         <div class="portfolio_container container swiper-container" navigation="true" pagination="true" keyboard="true"
+            mousewheel="true" css-mode="true">
+            <div class="swiper-wrapper">
                <!-- portfolio-1 -->
-               <div class="portfolio_content grid">
+               <div class="portfolio_content grid swiper-slide">
                   <img src="imgs/Portfolio1.jpg" alt="" class="portfolio_img">
 
                   <div class="portfolio_data">
@@ -624,7 +627,7 @@
                </div>
 
                <!-- portfolio-2 -->
-               <div class="portfolio_content grid">
+               <div class="portfolio_content grid swiper-slide">
                   <img src="imgs/Portfolio2.jpg" alt="" class="portfolio_img">
 
                   <div class="portfolio_data">
@@ -639,7 +642,7 @@
                </div>
 
                <!-- portfolio-3 -->
-               <div class="portfolio_content grid">
+               <div class="portfolio_content grid swiper-slide">
                   <img src="imgs/Portfolio3.jpg" alt="" class="portfolio_img">
 
                   <div class="portfolio_data">
@@ -659,6 +662,8 @@
 
    </main>
 
+   <!-- swiper js -->
+   <script src="cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
    <!-- icons -->
    <script src="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/script/monochrome/bundle.min.js"></script>
    <!-- script -->
