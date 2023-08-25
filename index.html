@@ -608,8 +608,7 @@
          <h2 class="section_title">Portfolio</h2>
          <span class="section_subtitle">Most recent work</span>
 
-         <div class="portfolio_container container swiper-container" navigation="true" pagination="true" keyboard="true"
-            mousewheel="true" css-mode="true">
+         <div class="portfolio_container container swiper">
             <div class="swiper-wrapper">
                <!-- portfolio-1 -->
                <div class="portfolio_content grid swiper-slide">
@@ -655,8 +654,17 @@
                      </a>
                   </div>
                </div>
-
             </div>
+
+            <!-- add arrows -->
+            <div class="swiper-button-next">
+               <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+               <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <!-- add pagination -->
+            <div class="swiper-pagination"></div>
          </div>
       </section>
 
