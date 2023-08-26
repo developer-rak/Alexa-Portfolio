@@ -102,3 +102,20 @@ let swiper = new Swiper(".portfolio_container", {
       clickable: true,
    },
 });
+
+/*==TESTIMONIAL SWIPER==*/
+let swiperTestimonial = new Swiper(".testimonial_container", {
+   loop: true,
+   grabCursor: true,
+   spaceBetween: 48,
+
+   //    // navigation: {
+   //    //    nextEl: ".swiper-button-next",
+   //    //    prevEl: ".swiper-button-prev",
+   // },
+   pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+   },
+});
