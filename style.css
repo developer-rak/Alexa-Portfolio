@@ -340,6 +340,14 @@ img {
     color: var(--first-color);
 }
 
+.button--white {
+    background-color: #FFF;
+    color: var(--first-color);
+}
+.button--white:hover {
+    background-color: #f4f2f2;
+}
+
 /* ==ABOUT== */
 .about_img {
     width: 200px;
@@ -723,4 +731,33 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullets {
     outline: none;
+}
+
+/* ==PROJECT IN MIND== */
+.project {
+    text-align: center;
+}
+
+.project_bg {
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project_title {
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project_description {
+    margin-bottom: var(--mb-1-5);
+}
+
+.project_title,
+.project_description {
+    color: #FFF;
+}
+
+.project_img {
+    width: 232px;
+    justify-self: center;
 }
