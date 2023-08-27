@@ -124,3 +124,5 @@ let swiperTestimonial = new Swiper(".testimonial_container", {
       }
    }
 });
+
+/*==SCROLL SECTION ACTIVE LINK==*/
