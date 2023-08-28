@@ -1048,6 +1048,13 @@ img {
         width: 200px;
     }
 
+    .portfolio_container {
+        text-align: center;
+    }
+    .swiper-pagination {
+        padding-bottom: 3rem;
+    }
+
     .testimonial_data,
     .testimonial_header {
         flex-direction: column;
@@ -1074,5 +1081,43 @@ img {
 
 /* for medium devices */
 @media screen and (min-width: 568px) {
-    
+    .home_content {
+        grid-template-columns: max-content 1fr 1fr;
+    }
+    .home_data {
+        grid-column: initial;
+    }
+    .home_img {
+        order: 1;
+        justify-content: center;
+    }
+
+    .about_container,
+    .skills_container,
+    .portfolio_content,
+    .project_container,
+    .contact_container,
+    .footer_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .about_img {
+        height: 300px;
+        width: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .qualification_sections {
+        display: grid;
+        grid-template-columns: .6fr;
+        justify-content: center;
+    }
+
+    .portfolio_container {
+        text-align: center;
+    }
+
+    .swiper-pagination {
+        padding-bottom: 3rem;
+    }
 }
