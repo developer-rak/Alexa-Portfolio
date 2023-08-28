@@ -1004,7 +1004,7 @@ img {
 
 
 /* ==MEDIA QUERIES== */
-/* for small devices */
+/* media for small devices */
 @media screen and (max-width: 350px) {
     .container {
         margin-left: var(--mb-1);
@@ -1079,7 +1079,7 @@ img {
 
 
 
-/* for medium devices */
+/* media for medium devices */
 @media screen and (min-width: 568px) {
     .home_content {
         grid-template-columns: max-content 1fr 1fr;
@@ -1268,7 +1268,7 @@ img {
 
 
 
-/* for large devices */
+/* media for large devices */
 @media screen and (min-width: 1024px) {
     .header,
     .main,
