@@ -1248,7 +1248,70 @@ img {
         padding-top: .8rem;
     }
 
-    .footer .footer_container {
+    .footer_container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .footer_bg {
+        padding: 3rem 0 3.5rem;
+    }
+    .footer_links {
+        flex-direction: row;
+        column-gap: 2rem;
+    }
+    .footer_socials {
+        justify-self: flex-end;
+    }
+    .footer_copy {
+        margin-top: 4.5rem;
+    }
+}
+
+
+
+/* for large devices */
+@media screen and (min-width: 1024px) {
+    .header,
+    .main,
+    .footer_container {
+        padding: 0;
+    }
+
+    .home_container {
+        text-align: left;
+        padding-left: 3rem;
+    }
+    .home_blob {
+        width: 320px;
+    }
+    .home_social {
+        transform: translateX(-2rem);
+    }
+
+    .services_container {
+        grid-template-columns: repeat(3, 240px);
+    }
+
+    .portfolio_container {
+        width: 700px;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project_container {
+        width: 90%;
+    }
+
+    .contact_container {
+        padding: 7rem;
+    }
+    .contact_form {
+        width: 460px;
+    }
+    .contact_inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer_container {
+        padding: 2rem;
     }
 }
